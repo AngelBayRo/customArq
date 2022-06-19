@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  customArq
+
+  Created by angel.bayon on 19/6/22.
+  
+*/
+
+"error_generic" = "Error";
+"error_unknown" = "Error desconocido";
+"invalid_user" = "Usuario incorrecto";
+"error_network" = "Error con la red";
