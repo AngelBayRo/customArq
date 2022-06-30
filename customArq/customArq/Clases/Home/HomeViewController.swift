@@ -12,10 +12,18 @@ protocol HomeViewProtocol: BaseViewProtocol {
 }
 
 class HomeViewController: BaseView {
-
+    var presenter: HomePresenterProtocol? { return basePresenter as? HomePresenterProtocol }
+    
+    var tableViewManager: TableViewManager?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        setUpTableManager()
+    }
+    
+    func setUpTableManager() {
+        tableViewManager = TableViewManager(arrayTableViews: [CustomTableView(type: TableType.home, tableView: UITableView())], presenter: presenter, view: self)
     }
 }
 

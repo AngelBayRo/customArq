@@ -20,10 +20,24 @@ class HomePresenter: BasePresenter {
     weak var view: HomeViewProtocol? { return super.baseView as? HomeViewProtocol }
     var router: HomeRouterProtocol? { return super.baseRouter as? HomeRouterProtocol }
     var interactor: HomeInteractorInputProtocol? { return super.baseInteractor as? HomeInteractorInputProtocol }
+    
+    weak var tablePresenterDelegate: TablePresenterDelegate?
 }
 
 extension HomePresenter: HomePresenterProtocol {
     func viewDidLoad() {
         
+    }
+}
+
+extension HomePresenter: TablePresenterProtocol {
+    func numberOfCells(_ tableType: TableType, section: Int) -> Int {
+        return 1
+    }
+    
+    func object(_ tableType: TableType, indexPath: IndexPath) -> Any {
+        let model = HomeViewCellModel(demo: "prueba")
+        
+        return model
     }
 }

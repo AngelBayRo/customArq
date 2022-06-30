@@ -12,6 +12,6 @@ class HomeBusinessModel: BaseBusinessModel {
     required init(serverModel: BaseServerModel?) {
         super.init(serverModel: serverModel)
         
-        guard let serverModel = serverModel as? HomeServerModel else { return }
+        //guard let serverModel = serverModel as? HomeServerModel else { return }
     }
 }

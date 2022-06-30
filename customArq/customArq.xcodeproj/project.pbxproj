@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9896152C286E2BD90040FBD2 /* TableProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9896152B286E2BD90040FBD2 /* TableProtocols.swift */; };
+		9896152E286E301A0040FBD2 /* TableViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9896152D286E301A0040FBD2 /* TableViewManager.swift */; };
+		98961530286E31380040FBD2 /* CustomTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9896152F286E31380040FBD2 /* CustomTableView.swift */; };
+		98961532286E32C30040FBD2 /* CommonFactoryCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98961531286E32C30040FBD2 /* CommonFactoryCells.swift */; };
+		98961536286E57BE0040FBD2 /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98961534286E57BE0040FBD2 /* HomeViewCell.swift */; };
+		98961537286E57BE0040FBD2 /* HomeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98961535286E57BE0040FBD2 /* HomeViewCell.xib */; };
+		9896153A286E58510040FBD2 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98961539286E58510040FBD2 /* BaseTableViewCell.swift */; };
+		9896153C286E5C9D0040FBD2 /* HomeViewCellDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9896153B286E5C9D0040FBD2 /* HomeViewCellDrawer.swift */; };
+		9896153E286E5CC00040FBD2 /* HomeViewCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9896153D286E5CC00040FBD2 /* HomeViewCellModel.swift */; };
+		98961540286E5EAF0040FBD2 /* NSObject+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9896153F286E5EAF0040FBD2 /* NSObject+Extensions.swift */; };
 		98D94407285F348E00F66CC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D94406285F348E00F66CC3 /* AppDelegate.swift */; };
 		98D94410285F349000F66CC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98D9440F285F349000F66CC3 /* Assets.xcassets */; };
 		98D9441E285F349100F66CC3 /* customArqTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98D9441D285F349100F66CC3 /* customArqTests.swift */; };
@@ -131,6 +141,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9896152B286E2BD90040FBD2 /* TableProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableProtocols.swift; sourceTree = "<group>"; };
+		9896152D286E301A0040FBD2 /* TableViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewManager.swift; sourceTree = "<group>"; };
+		9896152F286E31380040FBD2 /* CustomTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableView.swift; sourceTree = "<group>"; };
+		98961531286E32C30040FBD2 /* CommonFactoryCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonFactoryCells.swift; sourceTree = "<group>"; };
+		98961534286E57BE0040FBD2 /* HomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
+		98961535286E57BE0040FBD2 /* HomeViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewCell.xib; sourceTree = "<group>"; };
+		98961539286E58510040FBD2 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		9896153B286E5C9D0040FBD2 /* HomeViewCellDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCellDrawer.swift; sourceTree = "<group>"; };
+		9896153D286E5CC00040FBD2 /* HomeViewCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCellModel.swift; sourceTree = "<group>"; };
+		9896153F286E5EAF0040FBD2 /* NSObject+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+Extensions.swift"; sourceTree = "<group>"; };
 		98D94403285F348E00F66CC3 /* customArq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = customArq.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D94406285F348E00F66CC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		98D9440F285F349000F66CC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -200,6 +220,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9896152A286E2B450040FBD2 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				98961531286E32C30040FBD2 /* CommonFactoryCells.swift */,
+				9896152F286E31380040FBD2 /* CustomTableView.swift */,
+				9896152D286E301A0040FBD2 /* TableViewManager.swift */,
+				9896152B286E2BD90040FBD2 /* TableProtocols.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		98961533286E579F0040FBD2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9896153B286E5C9D0040FBD2 /* HomeViewCellDrawer.swift */,
+				9896153D286E5CC00040FBD2 /* HomeViewCellModel.swift */,
+				98961534286E57BE0040FBD2 /* HomeViewCell.swift */,
+				98961535286E57BE0040FBD2 /* HomeViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		98961538286E58200040FBD2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				98961539286E58510040FBD2 /* BaseTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		98D943FA285F348E00F66CC3 = {
 			isa = PBXGroup;
 			children = (
@@ -227,6 +277,7 @@
 				98D94454285F75CE00F66CC3 /* Helpers */,
 				98D9444F285F72BE00F66CC3 /* Utilities */,
 				98D9448F285FA1E600F66CC3 /* Extensions */,
+				9896152A286E2B450040FBD2 /* Managers */,
 				98D94498285FACD600F66CC3 /* Clases */,
 				98D94406285F348E00F66CC3 /* AppDelegate.swift */,
 				98D944C8285FD2ED00F66CC3 /* MainViewController.swift */,
@@ -258,6 +309,7 @@
 		98D94436285F6D8E00F66CC3 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				98961538286E58200040FBD2 /* Cells */,
 				98D944C3285FC97D00F66CC3 /* Data */,
 				98D94482285F906900F66CC3 /* Managers */,
 				98D94468285F827100F66CC3 /* Models */,
@@ -332,6 +384,7 @@
 			isa = PBXGroup;
 			children = (
 				98D94490285FA22200F66CC3 /* Date+Extension.swift */,
+				9896153F286E5EAF0040FBD2 /* NSObject+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -347,6 +400,7 @@
 		98D94499285FB56F00F66CC3 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				98961533286E579F0040FBD2 /* Cell */,
 				98D944BA285FC50100F66CC3 /* Models */,
 				98D944B2285FB65A00F66CC3 /* HomeAssembly.swift */,
 				98D944AE285FB64F00F66CC3 /* HomeProvider.swift */,
@@ -486,6 +540,7 @@
 				98D94410285F349000F66CC3 /* Assets.xcassets in Resources */,
 				98D94460285F7DB400F66CC3 /* Localizable.strings in Resources */,
 				98D9449F285FB61E00F66CC3 /* HomeViewController.xib in Resources */,
+				98961537286E57BE0040FBD2 /* HomeViewCell.xib in Resources */,
 				98D944CD285FD30F00F66CC3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -532,19 +587,28 @@
 				98D9445C285F76E000F66CC3 /* KnownErrors.swift in Sources */,
 				98D944C5285FC98900F66CC3 /* DataAssembly.swift in Sources */,
 				98D9449C285FB61E00F66CC3 /* HomeViewController.swift in Sources */,
+				98961540286E5EAF0040FBD2 /* NSObject+Extensions.swift in Sources */,
 				98D944B7285FB6C500F66CC3 /* BaseAssembly.swift in Sources */,
 				98D94464285F7E1F00F66CC3 /* LocalizedKeys.swift in Sources */,
+				98961536286E57BE0040FBD2 /* HomeViewCell.swift in Sources */,
 				98D944C9285FD2ED00F66CC3 /* MainViewController.swift in Sources */,
 				98D94476285F8B4500F66CC3 /* ErrorModel.swift in Sources */,
+				9896153C286E5C9D0040FBD2 /* HomeViewCellDrawer.swift in Sources */,
 				98D9446E285F873F00F66CC3 /* BaseServerModel.swift in Sources */,
 				98D944AB285FB64400F66CC3 /* HomeRouter.swift in Sources */,
+				9896153A286E58510040FBD2 /* BaseTableViewCell.swift in Sources */,
 				98D94495285FA2D100F66CC3 /* Constants.swift in Sources */,
 				98D94472285F886400F66CC3 /* ErrorServerModel.swift in Sources */,
 				98D94488285F9F1D00F66CC3 /* BaseProviderUtils.swift in Sources */,
+				98961530286E31380040FBD2 /* CustomTableView.swift in Sources */,
 				98D9446A285F851900F66CC3 /* BaseBusinessModel.swift in Sources */,
+				9896152E286E301A0040FBD2 /* TableViewManager.swift in Sources */,
 				98D94407285F348E00F66CC3 /* AppDelegate.swift in Sources */,
 				98D94440285F700C00F66CC3 /* BaseProtocols.swift in Sources */,
+				98961532286E32C30040FBD2 /* CommonFactoryCells.swift in Sources */,
 				98D94451285F72D600F66CC3 /* URLEndpoint.swift in Sources */,
+				9896152C286E2BD90040FBD2 /* TableProtocols.swift in Sources */,
+				9896153E286E5CC00040FBD2 /* HomeViewCellModel.swift in Sources */,
 				98D94444285F703F00F66CC3 /* BaseInteractor.swift in Sources */,
 				98D9448C285FA09000F66CC3 /* Utils.swift in Sources */,
 				98D94458285F75F200F66CC3 /* CustomErrorModel.swift in Sources */,
